@@ -2,13 +2,18 @@
   "name": "node-js",
   "version": "1.0.0",
   "description": "Node JS",
-  "main": "index.js",
+  "main": "src",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ."
   },
   "author": "Arun",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.2.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "yarn": "^1.22.10"
   }
 }
