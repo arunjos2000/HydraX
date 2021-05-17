@@ -1,2 +1,2 @@
 # HydraX
-## A slack bot to remind user about drinking water.
+## A slack bot to remind user to drink water.
